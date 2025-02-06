@@ -1,4 +1,4 @@
-#### This will be my portfolio / blog / website thing
+#### Portfolio
 
 ---
 
@@ -12,4 +12,4 @@
 - typescript
 - tailwind
 
-[url]: https://truejacobg-portfolio.vercel.app/
+[url]: https://truejacobg.vercel.app/
