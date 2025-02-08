@@ -10,7 +10,7 @@ interface Props {
 const SquareBox = ({title, description, link, linkText}: Props) => {
     return (
         <div className="bg-white p-6 rounded-lg shadow-md">
-            <h2>{title}</h2>
+            <h1 className="text-2xl font-bold mb-2">{title}</h1>
             <p className="text-gray-700 mb-4">
                 {description}
             </p>
