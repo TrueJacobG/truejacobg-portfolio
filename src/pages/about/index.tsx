@@ -39,10 +39,14 @@ const About = () => {
                                 <p>Containers over VMs</p>
                                 <p>Microservices over monoliths</p>
                                 <p>Static sites over {"\"react everywhere\""}</p>
+                                <p>Static typed languages over Dynamic / Duck typing languages</p>
+
                                 <p>CI/CD pipelines are MUST HAVE</p>
                                 <p>AI is just a tool</p>
                                 <p>Modern Java is fresh and cool</p>
+                                <p>PKL will be huge (mark my words)</p>
                                 <p>Deno 2.0 is game changer</p>
+                                <p>Testcontainers are cool</p>
                                 <p>NextJs could be the final one of them all, but it is still running your backend code in the browser</p>
                                 <p>Union types are must have (☕😔)</p>
                             </div>
