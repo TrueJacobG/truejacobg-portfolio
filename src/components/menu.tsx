@@ -11,7 +11,7 @@ const Menu = () => {
                 </div>
                 <ul className="flex space-x-5">
                     <li>
-                        <Link href="/" className="text-gray-700 hover:text-blue-500">Home
+                        <Link href="/" className="text-gray-700 hover:text-blue-500">Projects
                         </Link>
                     </li>
                     <li>
