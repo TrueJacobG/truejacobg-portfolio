@@ -2,8 +2,9 @@ import Link from "next/link";
 import "@/app/globals.css";
 
 const Menu = () => {
-    return <header className="shadow bg-stone-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    return (
+        <header className="shadow bg-stone-200 text-center">
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
             <nav className="flex justify-between items-center h-16">
                 <div className="flex-shrink-0">
                     <h1 className="text-2xl font-bold">My Portfolio</h1>
@@ -27,6 +28,7 @@ const Menu = () => {
             </nav>
         </div>
     </header>
+    )
 }
 
 export default Menu;
