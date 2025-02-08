@@ -45,8 +45,9 @@ const About = () => {
                                 <p>AI is just a tool</p>
                                 <p>Modern Java is fresh and cool</p>
                                 <p>PKL will be huge (mark my words)</p>
+                                <p>Zod is marvelous (Parse, don’t validate)</p>
                                 <p>Deno 2.0 is game changer</p>
-                                <p>Testcontainers are cool</p>
+                                <p>Testcontainers are awesome</p>
                                 <p>NextJs could be the final one of them all, but it is still running your backend code in the browser</p>
                                 <p>Union types are must have (☕😔)</p>
                             </div>
