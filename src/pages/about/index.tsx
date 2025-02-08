@@ -23,13 +23,29 @@ const About = () => {
                                 />
                             </div>
                         </div>
-                        <div className="space-y-10 text-center">
+                        <div className="space-y-10 text-center mb-8">
                             <p>Junior Fullstack Developer specializing in Java & Spring-based applications</p>
                             <p>Experienced with SQL databases (PostgreSQL, MySQL), testing frameworks (JUnit, Spock,
                                 Cucumber), and DevOps practices - leveraging Jenkins to manage CI/CD pipelines. I build
                                 robust backend solutions and add a touch of frontend expertise with React (especially
                                 whole Next.js environment). I enjoy exploring new technologies and solving complex
                                 problems with clean, efficient code.</p>
+                        </div>
+                        <div className="space-y-1 text-center mb-8 font-semibold">
+                            <h1 className="bold">IT Opinions</h1>
+                            <div className="italic">
+                                <p>Typescript over Javascript</p>
+                                <p>Self-hosted over Cloud base</p>
+                                <p>Containers over VMs</p>
+                                <p>Microservices over monoliths</p>
+                                <p>Static sites over {"\"react everywhere\""}</p>
+                                <p>CI/CD pipelines are MUST HAVE</p>
+                                <p>AI is just a tool</p>
+                                <p>Modern Java is fresh and cool</p>
+                                <p>Deno 2.0 is game changer</p>
+                                <p>NextJs could be the final one of them all, but it is still running your backend code in the browser</p>
+                                <p>Union types are must have (☕😔)</p>
+                            </div>
                         </div>
                     </main>
                 </div>
