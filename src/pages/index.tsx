@@ -3,7 +3,7 @@ import "@/app/globals.css";
 import SquareBox from "@/components/squareBox";
 import Metadata from "@/components/metadata";
 
-const Home = () => {
+const Projects = () => {
     return (
         <>
             <Metadata/>
@@ -252,4 +252,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default Projects;
