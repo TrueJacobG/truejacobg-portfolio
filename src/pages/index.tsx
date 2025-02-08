@@ -1,18 +1,12 @@
 import Menu from "@/components/menu";
 import "@/app/globals.css";
 import SquareBox from "@/components/squareBox";
-import Head from "next/head";
+import Metadata from "@/components/metadata";
 
-export default function Home() {
+const Home = () => {
     return (
         <>
-            <Head>
-                <title>TrueJacobG</title>
-                <meta name="description" content="TrueJacobG - Protfolio"/>
-                <meta name="viewport"
-                      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-                <link rel="shortcut icon" href="/static/image.png"/>
-            </Head>
+            <Metadata/>
             <main>
                 <div className="min-h-screen bg-stone-300">
                     <Menu/>
@@ -30,3 +24,5 @@ export default function Home() {
         </>
     );
 }
+
+export default Home;
