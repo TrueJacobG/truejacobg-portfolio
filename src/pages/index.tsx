@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Menu from "@/components/menu";
 import "@/app/globals.css";
+import SquareBox from "@/components/squareBox";
 
 export default function Home() {
     return (
@@ -8,15 +9,11 @@ export default function Home() {
             <Menu />
             <main className="max-w-4xl mx-auto py-15 px-4 sm:px-6 lg:px-8">
                 <div className="space-y-10">
-                    <div className="bg-white p-6 rounded-lg shadow-md">
-                        <h2 className="text-2xl font-bold mb-2 content-center">Project One</h2>
-                        <p className="text-gray-700 mb-4">
-                            A brief description of Project One. It highlights the main features and technologies used.
-                        </p>
-                        <Link href="/project-one" className="text-blue-500 hover:underline">
-                            Learn more
-                        </Link>
-                    </div>
+                    <SquareBox title={"Project one"}
+                               description={"A brief description of Project One. This project involved building something amazing."}
+                               link={"https://github.com/TrueJacobG"}
+                               linkText={"Link text"}
+                    />
 
                     <div className="bg-white p-6 rounded-lg shadow-md">
                         <h2 className="text-2xl font-bold mb-2">Project Two</h2>
