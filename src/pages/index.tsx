@@ -15,16 +15,16 @@ const Projects = () => {
               <section className="mb-20">
                 <h2 className="text-3xl font-bold text-center mb-6">Accomplished</h2>
                 <SquareBox
-                  title={"Spring as a Fullstack"}
-                  description={
-                    "React is fantastic ecosystem, but sometimes we just need simple frontend for our mostly backend project. So why won't we try to use Alpine.js and HTMX as a frontend part inside our Spring project"
-                  }
-                  link={"https://github.com/TrueJacobG/spring-as-fullstack"}
-                />
-                <SquareBox
                   title={"All in one Lombok"}
                   description={"The part of Java journey. Every Lombok related knowledge you might need"}
                   link={"https://github.com/TrueJacobG/all-in-one-lombok"}
+                />
+                <SquareBox
+                  title={"All in One AssertJ"}
+                  description={
+                    "Java journey continues. This time I dived into AssertJ docs and I tried to find every interesting piece of knowledge in that testing framework"
+                  }
+                  link={"https://github.com/TrueJacobG/all-in-one-assertj"}
                 />
                 <SquareBox
                   title={"Quiz for Japanese Hiragana and Katakana studying"}
@@ -68,6 +68,13 @@ const Projects = () => {
                   title={"Java Spring Boot 3 - Auth Example"}
                   description={"Simple example of stateless token auth with Spring Boot 3 + Spring Security 6"}
                   link={"https://github.com/TrueJacobG/java-spring-boot-3-security-example"}
+                />
+                <SquareBox
+                  title={"Spring as a Fullstack"}
+                  description={
+                    "React is fantastic ecosystem, but sometimes we just need simple frontend for our mostly backend project. So why won't we try to use Alpine.js and HTMX as a frontend part inside our Spring project"
+                  }
+                  link={"https://github.com/TrueJacobG/spring-as-fullstack"}
                 />
                 <SquareBox
                   title={"Quarkus as a Fullstack"}
@@ -127,17 +134,6 @@ const Projects = () => {
                   title={"AssertJ"}
                   description={"Small contribution to the assertJ/doc repository"}
                   link={"https://github.com/assertj/doc"}
-                />
-              </section>
-
-              <section className="mb-20">
-                <h2 className="text-3xl font-bold text-center mb-6">Work in Progress</h2>
-                <SquareBox
-                  title={"All in One AssertJ"}
-                  description={
-                    "Java journey continues. This time I dived into AssertJ docs and I tried to find every interesting piece of knowledge"
-                  }
-                  link={"https://github.com/TrueJacobG/all-in-one-assertj"}
                 />
               </section>
 
