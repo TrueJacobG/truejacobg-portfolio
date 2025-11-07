@@ -15,6 +15,13 @@ const Projects = () => {
               <section className="mb-20">
                 <h2 className="text-3xl font-bold text-center mb-6">Accomplished</h2>
                 <SquareBox
+                  title={"Emoji Picker"}
+                  description={
+                    "Simple emoji picker for MACOS built with SwiftUI. Replacement for native solution. Click § -> Select emoji -> Paste Emoji whenever you want"
+                  }
+                  link={"https://github.com/TrueJacobG/emoji-picker"}
+                />
+                <SquareBox
                   title={"All in one Lombok"}
                   description={"The part of Java journey. Every Lombok related knowledge you might need"}
                   link={"https://github.com/TrueJacobG/all-in-one-lombok"}
@@ -139,6 +146,7 @@ const Projects = () => {
 
               <section className="mb-20">
                 <h2 className="text-3xl font-bold text-center mb-6">ADVENT OF CODE</h2>
+                <SquareBox title={"AoC 2024"} description={""} link={"https://github.com/TrueJacobG/advent-of-code-2025"} />
                 <SquareBox title={"AoC 2024"} description={""} link={"https://github.com/TrueJacobG/advent-of-code-2024"} />
                 <SquareBox title={"AoC 2023"} description={""} link={"https://github.com/TrueJacobG/advent-of-code-2023"} />
                 <SquareBox title={"AoC 2022"} description={""} link={"https://github.com/TrueJacobG/advent-of-code-2022"} />
