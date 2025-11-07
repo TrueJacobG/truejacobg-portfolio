@@ -146,7 +146,7 @@ const Projects = () => {
 
               <section className="mb-20">
                 <h2 className="text-3xl font-bold text-center mb-6">ADVENT OF CODE</h2>
-                <SquareBox title={"AoC 2024"} description={""} link={"https://github.com/TrueJacobG/advent-of-code-2025"} />
+                <SquareBox title={"AoC 2025"} description={""} link={"https://github.com/TrueJacobG/advent-of-code-2025"} />
                 <SquareBox title={"AoC 2024"} description={""} link={"https://github.com/TrueJacobG/advent-of-code-2024"} />
                 <SquareBox title={"AoC 2023"} description={""} link={"https://github.com/TrueJacobG/advent-of-code-2023"} />
                 <SquareBox title={"AoC 2022"} description={""} link={"https://github.com/TrueJacobG/advent-of-code-2022"} />
