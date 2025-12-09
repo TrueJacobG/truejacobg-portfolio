@@ -48,7 +48,7 @@ const About = () => {
             </div>
           </main>
         </div>
-        {/* about? */}
+        {/* about?? */}
       </main>
     </>
   );
