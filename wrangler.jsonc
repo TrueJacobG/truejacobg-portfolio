@@ -1,7 +1,9 @@
 {
+  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "truejacobg-portfolio",
-  "compatibility_date": "2025-11-07",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-12-09",
   "assets": {
-    "directory": "./out"
+    "directory": ".open-next/assets"
   }
 }

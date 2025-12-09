@@ -13,7 +13,7 @@ const About = () => {
           <main className="max-w-4xl mx-auto py-15 px-4 sm:px-6 lg:px-8">
             <div className="flex justify-center mb-8">
               <div className="w-48 h-48 rounded-full overflow-hidden shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl">
-                <Image src="/static/image.png" alt="Image of me" width={200} height={200} className="object-cover" />
+                <Image src="/image.png" alt="Image of me" width={200} height={200} className="object-cover" />
               </div>
             </div>
             <div className="space-y-10 text-center mb-8">
