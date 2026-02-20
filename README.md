@@ -11,5 +11,4 @@
 - next js
 - typescript
 - tailwind
-
-[url]: https://truejacobg.vercel.app/
+- cloudflare pages
