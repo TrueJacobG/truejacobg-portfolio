@@ -19,7 +19,7 @@ const Projects = () => {
                   description={
                     "Simple emoji picker for MACOS built with SwiftUI. Replacement for native solution. Click § -> Select emoji -> Paste Emoji whenever you want"
                   }
-                  link={"https://github.com/TrueJacobG/emoji-picker"}
+                  link={"https://emoji-picker.jakub.gradzewi.cz"}
                 />
                 <SquareBox
                   title={"All in one Lombok"}
