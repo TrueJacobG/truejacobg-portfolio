@@ -17,12 +17,14 @@ const About = () => {
               </div>
             </div>
             <div className="space-y-10 text-center mb-8">
-              <p>Junior Fullstack Developer specializing in Java & Spring-based applications</p>
+              <p>Fullstack Developer specializing in Java & React</p>
               <p>
-                Experienced with SQL databases (PostgreSQL, MySQL), testing frameworks (JUnit, Spock, Cucumber), and DevOps practices -
-                leveraging Jenkins to manage CI/CD pipelines. I build robust backend solutions and add a touch of frontend expertise with
-                React (especially whole Next.js environment). I enjoy exploring new technologies and solving complex problems with clean,
-                efficient code.
+                I am a Fullstack Software Developer dedicated to building scalable, high-performance systems and intuitive user experiences.
+                My core expertise lies in architecting robust backend solutions using Java 21 and Spring Boot. I thrive in microservices
+                environments, managing complex data across PostgreSQL and MySQL while ensuring system reliability through Jenkins CI/CD
+                pipelines and comprehensive testing with JUnit, Spock, and Cucumber. On the frontend, I bridge the gap between logic and
+                design using TypeScript and React. I am a firm believer in the "clean code" philosophy, constantly exploring emerging
+                technologies to solve complex problems with elegant, maintainable solutions. Currently experimenting with AI agentic tools
               </p>
             </div>
             <div className="space-y-1 text-center mb-8 font-semibold">
@@ -31,19 +33,20 @@ const About = () => {
                 <p>Typescript over Javascript</p>
                 <p>Self-hosted over Cloud base</p>
                 <p>Containers over VMs</p>
-                <p>Microservices over monoliths</p>
                 <p>Static sites over {'"react everywhere"'}</p>
                 <p>Static typed languages over Dynamic / Duck typing languages</p>
-
                 <p>CI/CD pipelines are MUST HAVE</p>
                 <p>AI is just a tool</p>
                 <p>Modern Java is fresh and cool</p>
                 <p>PKL will be huge (mark my words)</p>
                 <p>Zod is marvelous (Parse, don’t validate)</p>
-                <p>Deno 2.0 is game changer</p>
                 <p>Testcontainers are awesome</p>
-                <p>NextJs could be the final one of them all, but it is still running your backend code in the browser</p>
                 <p>Union types are must have (☕😔)</p>
+                <p>Postgres for (almost) everything</p>
+                <p>Composition over Inheritance</p>
+                <p>HTMX over SPAs (in 90% of cases)</p>
+                <p>Boring technology wins</p>
+                <p>Small PRs are a superpower</p>
               </div>
             </div>
           </main>
