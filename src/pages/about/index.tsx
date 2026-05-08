@@ -23,7 +23,7 @@ const About = () => {
                 My core expertise lies in architecting robust backend solutions using Java 21 and Spring Boot. I thrive in microservices
                 environments, managing complex data across PostgreSQL and MySQL while ensuring system reliability through Jenkins CI/CD
                 pipelines and comprehensive testing with JUnit, Spock, and Cucumber. On the frontend, I bridge the gap between logic and
-                design using TypeScript and React. I am a firm believer in the "clean code" philosophy, constantly exploring emerging
+                design using TypeScript and React. I am a firm believer in the clean code philosophy, constantly exploring emerging
                 technologies to solve complex problems with elegant, maintainable solutions. Currently experimenting with AI agentic tools
               </p>
             </div>
@@ -39,7 +39,7 @@ const About = () => {
                 <p>AI is just a tool</p>
                 <p>Modern Java is fresh and cool</p>
                 <p>PKL will be huge (mark my words)</p>
-                <p>Zod is marvelous (Parse, don’t validate)</p>
+                <p>Zod is marvelous (Parse, do not validate)</p>
                 <p>Testcontainers are awesome</p>
                 <p>Union types are must have (☕😔)</p>
                 <p>Postgres for (almost) everything</p>
