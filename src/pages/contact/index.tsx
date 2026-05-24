@@ -1,39 +1,59 @@
-import Menu from "@/components/menu";
-import "@/app/globals.css";
 import Metadata from "@/components/metadata";
+import PageShell from "@/components/pageShell";
 import Link from "next/link";
-import {FaArrowUp, FaGithub, FaLinkedin} from "react-icons/fa";
+import { FaArrowUpRightFromSquare, FaGithub, FaLinkedin } from "react-icons/fa6";
+
+const socialLinks = [
+  {
+    href: "https://github.com/TrueJacobG",
+    label: "GitHub",
+    handle: "@TrueJacobG",
+    icon: FaGithub,
+    accent: "hover:border-zinc-400/30 hover:shadow-zinc-500/10",
+    iconColor: "text-zinc-300",
+  },
+  {
+    href: "https://www.linkedin.com/in/jakub-gradzewicz/",
+    label: "LinkedIn",
+    handle: "jakub-gradzewicz",
+    icon: FaLinkedin,
+    accent: "hover:border-blue-500/30 hover:shadow-blue-500/10",
+    iconColor: "text-blue-400",
+  },
+];
 
 const Contact = () => {
-    return (
-        <>
-            <Metadata/>
-            <main>
-                <div className="min-h-screen bg-stone-300">
-                    <Menu/>
-                    <main className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8">
-                        <h2 className="text-3xl font-bold mb-8 text-center">Find me on</h2>
-                        <div className="flex flex-wrap justify-center gap-8">
-                            <Link href="https://github.com/TrueJacobG" target="_blank">
-                                    <div className="w-48 h-48 bg-white flex flex-col justify-center items-center rounded-lg shadow-md group transition-all duration-300 ease-in-out hover:shadow-xl hover:bg-gray-200">
-                                        <FaGithub className="text-6xl text-gray-800 mb-4" />
-                                        <span className="text-xl font-semibold text-gray-700">GitHub</span>
-                                        <FaArrowUp className="mt-2 text-gray-500 opacity-0 transform translate-y-2 group-hover:opacity-100 group-hover:-translate-y-1 transition-all duration-300 ease-in-out" />
-                                    </div>
-                            </Link>
-                            <Link href="https://www.linkedin.com/in/jakub-gradzewicz/" target="_blank">
-                                    <div className="w-48 h-48 bg-white flex flex-col justify-center items-center rounded-lg shadow-md group transition-all duration-300 ease-in-out hover:shadow-xl hover:bg-gray-200">
-                                        <FaLinkedin className="text-6xl text-blue-700 mb-4" />
-                                        <span className="text-xl font-semibold text-gray-700">LinkedIn</span>
-                                        <FaArrowUp className="mt-2 text-gray-500 opacity-0 transform translate-y-2 group-hover:opacity-100 group-hover:-translate-y-1 transition-all duration-300 ease-in-out" />
-                                    </div>
-                            </Link>
-                        </div>
-                    </main>
+  return (
+    <>
+      <Metadata />
+      <PageShell>
+        <section className="text-center mb-16 animate-fade-up">
+          <p className="text-emerald-400/80 text-sm font-mono tracking-widest uppercase mb-4">Get in Touch</p>
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-6">
+            Let&apos;s <span className="gradient-text">connect</span>
+          </h1>
+          <p className="text-zinc-400 text-lg max-w-xl mx-auto">
+            Find me on social platforms — always happy to chat about code, coffee, or fishing.
+          </p>
+        </section>
+
+        <div className="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto animate-fade-up-delay-1">
+          {socialLinks.map(({ href, label, handle, icon: Icon, accent, iconColor }) => (
+            <Link key={href} href={href} target="_blank" rel="noopener noreferrer" className="group">
+              <div className={`glass-card rounded-2xl p-8 flex flex-col items-center gap-4 ${accent}`}>
+                <Icon className={`text-5xl ${iconColor} group-hover:scale-110 transition-transform duration-300`} />
+                <div className="text-center">
+                  <span className="block text-xl font-semibold text-zinc-100">{label}</span>
+                  <span className="block text-sm text-zinc-500 mt-1">{handle}</span>
                 </div>
-            </main>
-        </>
-    );
+                <FaArrowUpRightFromSquare className="text-xs text-zinc-600 group-hover:text-emerald-400 opacity-0 group-hover:opacity-100 transition-all" />
+              </div>
+            </Link>
+          ))}
+        </div>
+      </PageShell>
+    </>
+  );
 };
 
 export default Contact;
