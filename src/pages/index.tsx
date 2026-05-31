@@ -23,8 +23,7 @@ const Projects = () => {
             Things I&apos;ve <span className="gradient-text">built</span>
           </h1>
           <p className="text-zinc-400 text-lg max-w-2xl mx-auto leading-relaxed">
-            From fullstack apps to open-source contributions — a collection of projects, experiments, and side quests in
-            code.
+            From fullstack apps to open-source contributions — a collection of projects, experiments, and side quests in code.
           </p>
         </section>
 
@@ -36,8 +35,8 @@ const Projects = () => {
                 featured
                 title="BFA"
                 badge="Work In Progress"
-                description='I believe that all of us had that moment (perhaps after watching "The Social Network") in life that just made love coding... and not just coding another calculator or weather app (yeah, I&apos;ve made a couple of those by myself 😅). I&apos;ve meant to code something BIG. And I believe this is that project for me. The greatest source of knowledge for every fisherman in the WORLD (or just Poland, let&apos;s start down-to-earth)'
-                link="https://dev.basic-fishing-assistant.pl"
+                description="I believe that all of us had that moment (perhaps after watching &quot;The Social Network&quot;) in life that just made love coding... and not just coding another calculator or weather app (yeah, I've made a couple of those by myself 😅). I've meant to code something BIG. And I believe this is that project for me. The greatest source of knowledge for every fisherman in the WORLD (or just Poland, let's start down-to-earth)"
+                link="https://bfa.boats"
                 linkText="Visit Site"
               />
               <SquareBox
