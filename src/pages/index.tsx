@@ -49,7 +49,7 @@ const Projects = () => {
                 featured
                 title="EU Car Licence Plate Validator"
                 description="Open-source project for validating EU car licence plates. It can be used as a library for various of languages (python, java, typescript, go, ruby). It supports all EU countries and their licence plate formats."
-                link="https://github.com/TrueJacobG/eu-licence-validator"
+                link="https://eu-licence.jakub.gradzewi.cz/"
               />
             </div>
           </section>
