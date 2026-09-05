@@ -47,6 +47,13 @@ const Projects = () => {
               />
               <SquareBox
                 featured
+                title="Hidden Icons"
+                description="A featherweight Hidden Bar alternative for MACOS. Declutter the menu bar in one click while using a fraction of the memory. Free & open source, no permissions needed."
+                link="https://hiddenicons.jakub.gradzewi.cz"
+                linkText="Visit Site"
+              />
+              <SquareBox
+                featured
                 title="EU Car Licence Plate Validator"
                 description="Open-source project for validating EU car licence plates. It can be used as a library for various of languages (python, java, typescript, go, ruby). It supports all EU countries and their licence plate formats."
                 link="https://eu-licence.jakub.gradzewi.cz/"
