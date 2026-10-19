@@ -41,6 +41,14 @@ const Projects = () => {
               />
               <SquareBox
                 featured
+                title="AI RPG Game Maker"
+                badge="Work In Progress"
+                description="Run a tabletop RPG as the game master without the paperwork. A tablet on the table listens to the players' decisions, every player gets their character on a phone by scanning a QR code, and an AI assistant helps you stick to your own plot. Open-source framework on Cloudflare Workers, the story stays yours."
+                link="https://rpg.jakub.gradzewi.cz/"
+                linkText="Visit Site"
+              />
+              <SquareBox
+                featured
                 title="Emoji Picker"
                 description="Simple emoji picker for MACOS built with SwiftUI. Replacement for native solution. Click § → Select emoji → Paste Emoji whenever you want"
                 link="https://emoji-picker.jakub.gradzewi.cz"
